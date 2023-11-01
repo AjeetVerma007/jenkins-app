@@ -13,7 +13,6 @@ public class TestController {
 	@GetMapping("/display")
 	public String display() {
 
-		logger.info("display");
 		return "Hi welome to jenkins";
 	}
 
